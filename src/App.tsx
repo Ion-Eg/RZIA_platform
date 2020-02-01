@@ -35,6 +35,8 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+import { images} from 'ionicons/icons';
+
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
@@ -52,7 +54,7 @@ const App: React.FC = () => (
             <IonLabel>Tab One</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon icon={apps} />
+            <IonIcon icon={images} />
             <IonLabel>Tab Two</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab3" href="/tab3">
