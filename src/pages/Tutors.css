@@ -1,0 +1,13 @@
+
+.card {
+    border-radius: 20px 20px 20px 20px; 
+
+}
+.tile {
+    display: block;
+}
+.ionRow {
+    text-align: center;
+    justify-content: center;
+}
+

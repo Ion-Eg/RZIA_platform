@@ -7,13 +7,13 @@ const Details: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonButtons slot="start">
-            <IonBackButton defaultHref="/tab2" />
+            <IonBackButton defaultHref="/tab3" />
           </IonButtons>
           <IonTitle>Detail</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        <p>Details</p>
+        <p>Детали</p>
       </IonContent>
     </IonPage>
   );
